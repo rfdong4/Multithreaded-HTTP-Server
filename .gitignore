@@ -1,32 +1,32 @@
 .DS_Store
 # Ignore build artifacts and outputs
-asgn4/httpserver
-asgn4/httpserver.o
-asgn4/asgn4_helper_funcs.a
-asgn4/*.o
-asgn4/*.a
-asgn4/*.out
-asgn4/*.txt
-!asgn4/README.md
-!asgn4/httpserver.c
-!asgn4/*.h
-!asgn4/Makefile
-!asgn4/config.json
-!asgn4/test_repo.sh
+multithreaded-httpserver/httpserver
+multithreaded-httpserver/httpserver.o
+multithreaded-httpserver/multithreaded-httpserver_helper_funcs.a
+multithreaded-httpserver/*.o
+multithreaded-httpserver/*.a
+multithreaded-httpserver/*.out
+multithreaded-httpserver/*.txt
+!multithreaded-httpserver/README.md
+!multithreaded-httpserver/httpserver.c
+!multithreaded-httpserver/*.h
+!multithreaded-httpserver/Makefile
+!multithreaded-httpserver/config.json
+!multithreaded-httpserver/test_repo.sh
 # Ignore replay and .format directories
-asgn4/replay/
-asgn4/.format/
+multithreaded-httpserver/replay/
+multithreaded-httpserver/.format/
 # Ignore fuse_hidden files
-asgn4/fuse_hidden*
-asgn4/.fuse_hidden*
+multithreaded-httpserver/fuse_hidden*
+multithreaded-httpserver/.fuse_hidden*
 # Ignore all files in test_files except README (if any)
-asgn4/test_files/*
-!asgn4/test_files/README.md
+multithreaded-httpserver/test_files/*
+!multithreaded-httpserver/test_files/README.md
 # Ignore all files in workloads except README (if any)
-asgn4/workloads/*
-!asgn4/workloads/README.md
+multithreaded-httpserver/workloads/*
+!multithreaded-httpserver/workloads/README.md
 # Ignore all files in test_scripts except scripts (keep .sh and .py)
-asgn4/test_scripts/*
-!asgn4/test_scripts/*.sh
-!asgn4/test_scripts/*.py
-!asgn4/test_scripts/README.md
+multithreaded-httpserver/test_scripts/*
+!multithreaded-httpserver/test_scripts/*.sh
+!multithreaded-httpserver/test_scripts/*.py
+!multithreaded-httpserver/test_scripts/README.md
